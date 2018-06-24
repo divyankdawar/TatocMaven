@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31371" started-at="2018-06-24T16:54:53Z" finished-at="2018-06-24T16:55:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31371" started-at="2018-06-24T16:54:53Z" finished-at="2018-06-24T16:55:24Z">
+      <class name="com.qait.tatoctest.TatocTest">
+        <test-method status="PASS" signature="testOpenBrowserAndChooseBasic()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testOpenBrowserAndChooseBasic" is-config="true" duration-ms="9402" started-at="2018-06-24T22:24:53Z" finished-at="2018-06-24T22:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenBrowserAndChooseBasic -->
+        <test-method status="PASS" signature="testGreenBox()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testGreenBox" duration-ms="1432" started-at="2018-06-24T22:25:03Z" finished-at="2018-06-24T22:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGreenBox -->
+        <test-method status="PASS" signature="testFrameDungeon()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testFrameDungeon" duration-ms="11664" started-at="2018-06-24T22:25:04Z" depends-on-methods="com.qait.tatoctest.TatocTest.testGreenBox" finished-at="2018-06-24T22:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrameDungeon -->
+        <test-method status="PASS" signature="testDragAndDrop()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testDragAndDrop" duration-ms="904" started-at="2018-06-24T22:25:16Z" depends-on-methods="com.qait.tatoctest.TatocTest.testFrameDungeon" finished-at="2018-06-24T22:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method status="PASS" signature="testPopUpWindow()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testPopUpWindow" duration-ms="5279" started-at="2018-06-24T22:25:17Z" depends-on-methods="com.qait.tatoctest.TatocTest.testDragAndDrop" finished-at="2018-06-24T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopUpWindow -->
+        <test-method status="PASS" signature="testCookie()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testCookie" duration-ms="1285" started-at="2018-06-24T22:25:22Z" depends-on-methods="com.qait.tatoctest.TatocTest.testPopUpWindow" finished-at="2018-06-24T22:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCookie -->
+        <test-method status="PASS" signature="testQuit()[pri:0, instance:com.qait.tatoctest.TatocTest@6bb4dd34]" name="testQuit" is-config="true" duration-ms="665" started-at="2018-06-24T22:25:23Z" finished-at="2018-06-24T22:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+      </class> <!-- com.qait.tatoctest.TatocTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
